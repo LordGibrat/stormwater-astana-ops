@@ -1,0 +1,4 @@
+.codegraph/
+.ai-harness/
+dist/
+outputs/

@@ -1,0 +1,10 @@
+{
+  "name": "stormwater-astana-mvp",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
