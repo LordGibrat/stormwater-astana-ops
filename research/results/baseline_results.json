@@ -1,0 +1,51 @@
+{
+  "task": "urban_flood_risk_classification",
+  "seed": 20261011,
+  "split": "chronological 75/25",
+  "train_rows": 120,
+  "test_rows": 40,
+  "features": [
+    "rainfall_6h_mm",
+    "rainfall_24h_mm",
+    "impervious_pct",
+    "drain_distance_m",
+    "elevation_delta_m",
+    "prior_incidents"
+  ],
+  "metrics": {
+    "auroc": 0.9875,
+    "f1": 0.9,
+    "brier": 0.0512,
+    "precision": 1.0,
+    "recall": 0.8182
+  },
+  "model": {
+    "type": "regularized_logistic_regression",
+    "bias": -1.060738,
+    "weights": [
+      1.855081,
+      1.495632,
+      1.04912,
+      -1.31213,
+      -1.070389,
+      1.63354
+    ],
+    "means": [
+      4.79731,
+      13.035236,
+      58.899891,
+      207.903256,
+      3.938788,
+      2.575
+    ],
+    "scales": [
+      4.647954,
+      8.693014,
+      19.880499,
+      110.424103,
+      2.36936,
+      1.735235
+    ]
+  },
+  "data_status": "synthetic_scaffolding_replace_with_verified_astana_events"
+}

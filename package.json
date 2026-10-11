@@ -2,7 +2,8 @@
   "name": "stormwater-astana-mvp",
   "private": true,
   "scripts": {
-    "build": "node build.mjs"
+    "build": "node build.mjs",
+    "research:baseline": "python research/train_baseline.py"
   },
   "engines": {
     "node": ">=18"
