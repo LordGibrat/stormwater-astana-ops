@@ -1,6 +1,6 @@
 # Stormwater-AI research track
 
-This folder turns the Stormwater product MVP into a reproducible research prototype for MBZUAI-oriented applications.
+This folder contains a reproducible **synthetic-data baseline** for the [Stormwater ASTANA OPS](../README.md) product prototype. The metrics demonstrate the pipeline and do not measure real flood prediction performance.
 
 ## Research question
 

@@ -1,6 +1,8 @@
 # Stormwater ASTANA OPS
 
-An operational MVP for coordinating urban flood risk and stormwater response in Astana.
+**A browser-based situation center for exploring stormwater incidents in Astana.** It connects map context, risk signals, resident reports, and response work in one demo workflow.
+
+[Run locally](#run) · [Research baseline](research/README.md) · [Data sources](work/stormwater-mvp/DATA-SOURCES.md)
 
 ## Product idea
 
